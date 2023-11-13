@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [],
+  "contact": {
+    "sources": "https://github.com/OffKilterMC/NightVision"
+  },
+  "license": "${mod_license}",
+  "icon": "assets/nightvision/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.offkiltermc.nightvision.fabric.client.NightVisionClient"
+    ],
+    "main": [
+      "net.offkiltermc.nightvision.fabric.NightVision"
+    ]
+  },
+  "mixins": [
+    "nightvision-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20"
+  }
+}

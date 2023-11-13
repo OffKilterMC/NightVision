@@ -1,4 +1,4 @@
-package offkilter.nightvision.client;
+package net.offkiltermc.nightvision.fabric.client;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.fabricmc.api.ClientModInitializer;

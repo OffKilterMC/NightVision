@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.offkiltermc.nightvision.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "nightvision-forge.mixins.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "LightTextureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
