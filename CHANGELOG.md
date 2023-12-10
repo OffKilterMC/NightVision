@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.0.4
+- Changed how we turn on night vision.
+
 ## Version 1.0.3
 - Support both Fabric and Forge
 

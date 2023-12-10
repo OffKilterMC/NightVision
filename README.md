@@ -12,4 +12,3 @@ The hotkey is set in the Controls settings under Miscellaneous. The default key 
 
 Known Conflicts/Issues:
 - This mod will not function properly with shaders such as BSL, as they bypass the lightmap code that NightVision deal with.
-- This mod has a known conflict with the Alex's Caves mod, which also modifies the same lightmap path we do.
