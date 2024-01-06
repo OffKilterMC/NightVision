@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.0.6
+- Fix fabric version number compatibility range.
+
 ## Version 1.0.5
 - Allow to run on Minecraft 1.19 onward. Was unable to verify on 1.20.4 with Forge as I could not get it to run in MultiMC.
 
